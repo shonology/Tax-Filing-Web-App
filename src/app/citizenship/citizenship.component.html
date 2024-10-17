@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Citizenship</h2>
+    <form>
+      <div class="form-group">
+        <label>Are you a citizen of the United States?</label>
+        <div>
+          <input type="radio" id="yes" name="citizenship" value="yes">
+          <label for="yes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="no" name="citizenship" value="no">
+          <label for="no">No</label>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" [routerLink]="['/personal-info']">Next</button>
+    </form>
+  </div>
+  

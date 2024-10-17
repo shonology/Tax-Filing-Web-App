@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>Income Information</h2>
+    <form>
+      <div class="form-group">
+        <label for="income">Annual Income:</label>
+        <input type="number" id="income" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="sources">Number of Income Sources:</label>
+        <input type="number" id="sources" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Do you trade or acquire Cryptocurrency?</label>
+        <div>
+          <input type="radio" id="cryptoYes" name="crypto" value="yes">
+          <label for="cryptoYes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="cryptoNo" name="crypto" value="no">
+          <label for="cryptoNo">No</label>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" [routerLink]="['/upload-documents']">Next</button>
+    </form>
+  </div>
+  
